@@ -1,35 +1,75 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
-# compiled output
-/dist
-/tmp
+HELP.md
+!.mvn/wrapper/maven-wrapper.jar
+!*/src/main/*/target/
+!*/src/test/*/target/
 
-# dependencies
-/node_modules
-/bower_components
-
-# IDEs and editors
-/.idea
-/.vscode
+### IDEs and Editors ###
+.apt_generated
+.settings
+.springBeans
+.sts4-cache
 .project
 .classpath
+.factorypath
+.settings/
+.metadata/
+.idea
+.idea/
+*.sublime-workspace
 .c9/
 *.launch
-.settings/
 
-# misc
-/.sass-cache
-/connect.lock
-/coverage/*
-/libpeerconnection.log
-npm-debug.log
-testem.log
-/typings
+### IntelliJ IDEA ###
+*.iws
+*.iml
+*.ipr
 
-# e2e
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!*/src/main/*/build/
+!*/src/test/*/build/
+
+.vscode/
+
+### IDE - VSCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### Compiled Output ###
+target/
+bin/
+dist/
+.apt_generated/
+
+### Tests ###
+*.log
+*.db
+tmp/
+/Old/
+
+### Cache ###
+package-lock.json
+.sass-cache
+
+### Dependencies ###
+node_modules/
+
+### e2e ###
 /e2e/*.js
 /e2e/*.map
 
-#System Files
+### System Files ###
 .DS_Store
 Thumbs.db
+/RemoteSystemsTempFiles/
+/Servers/
